@@ -36,7 +36,8 @@ def test_is_positive02():
 
 def test_is_positive03():
     assert is_positive(-5)== 'false'
-
+def test_is_positive04():
+    assert is_positive(-7)== 'false'
 
 
 
