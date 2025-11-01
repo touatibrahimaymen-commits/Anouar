@@ -28,7 +28,14 @@ def test_is_event():
 def test_is_event02():
     assert is_event(7) == 'false'
 
+def test_is_positive():
+    assert is_positive(5)== 'true'
 
+def test_is_positive02():
+    assert is_positive(0)== 'false'
+
+def test_is_positive03():
+    assert is_positive(-5)== 'false'
 
 
 
