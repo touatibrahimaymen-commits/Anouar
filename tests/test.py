@@ -52,6 +52,8 @@ def test_factorial02():
     assert  factorial(1)==1
 def test_factorial03():
     assert  factorial(3)==6
+def test_factorial04():
+    assert  factorial(-5)==None
 
 
 
