@@ -10,3 +10,4 @@ def sum_list(num):
     for n in num:
         k +=n
     return k
+#def is_event(z)
