@@ -1,4 +1,4 @@
-from crs.min_pro import sub , mul , sum_list , is_event
+from crs.min_pro import sub , mul , sum_list , is_event , is_positive
 
 def test_sub():
     assert sub(8,3) == 5
@@ -36,6 +36,8 @@ def test_is_positive02():
 
 def test_is_positive03():
     assert is_positive(-5)== 'false'
+
+
 
 
 

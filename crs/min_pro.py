@@ -14,4 +14,9 @@ def is_event(z):
     if z % 2 == 0 :
         return 'true'
 
+def is_positive(k):
+    if k>=1:
+        return 'true'
+    elif k<1:
+        return 'false'
 
