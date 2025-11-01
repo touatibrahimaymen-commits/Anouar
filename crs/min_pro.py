@@ -13,5 +13,5 @@ def sum_list(num):
 def is_event(z):
     if z % 2 == 0 :
         return 'true'
-    elif  z % 2 != 0 :
-        return 'false'
+
+
