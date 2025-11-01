@@ -10,4 +10,8 @@ def sum_list(num):
     for n in num:
         k +=n
     return k
-#def is_event(z)
+def is_event(z):
+    if z % 2 == 0 :
+        return 'true'
+    elif  z % 2 != 0 :
+        return 'false'

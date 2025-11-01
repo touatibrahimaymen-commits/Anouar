@@ -1,4 +1,4 @@
-from crs.min_pro import sub , mul , sum_list
+from crs.min_pro import sub , mul , sum_list , is_event
 
 def test_sub():
     assert sub(8,3) == 5
@@ -24,9 +24,9 @@ def test_add_list04():
     assert sum_list([]) ==0
 
 def test_is_event():
-    assert is_event(2) == true
+    assert is_event(2) == 'true'
 def test_is_event02():
-    assert is_event(2) == false
+    assert is_event(7) == 'false'
 
 
 
