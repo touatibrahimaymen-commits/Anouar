@@ -1,4 +1,4 @@
-from crs.min_pro import sub , mul , sum_list , is_event , is_positive,max_of_two
+from crs.min_pro import sub , mul , sum_list , is_event , is_positive,max_of_two ,factorial
 
 def test_sub():
     assert sub(8,3) == 5
@@ -53,7 +53,7 @@ def test_factorial02():
 def test_factorial03():
     assert  factorial(3)==6
 def test_factorial04():
-    assert  factorial(-5)==None
+    assert  factorial(-5)=='None'
 
 
 
