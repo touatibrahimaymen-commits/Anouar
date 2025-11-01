@@ -46,8 +46,12 @@ def test_max_of_two02():
 def test_max_of_two03():
     assert max_of_two(9,9)==9
 
-
-
+def test_factorial():
+    assert  factorial(0)==1
+def test_factorial02():
+    assert  factorial(1)==1
+def test_factorial03():
+    assert  factorial(3)==6
 
 
 
