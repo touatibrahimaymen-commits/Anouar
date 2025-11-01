@@ -39,6 +39,13 @@ def test_is_positive03():
 def test_is_positive04():
     assert is_positive(-7)== 'false'
 
+def test_max_of_two():
+    assert max_of_two(5,4)==5
+def test_max_of_two02():
+    assert max_of_two(3,8)==8
+def test_max_of_two03():
+    assert max_of_two(9,9)==9
+
 
 
 
