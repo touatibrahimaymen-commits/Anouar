@@ -20,3 +20,9 @@ def is_positive(k):
     elif k==0:
        return 'false'
 
+def max_of_two(a,b):
+    if a>= b:
+        return a
+    else :
+        return  b
+

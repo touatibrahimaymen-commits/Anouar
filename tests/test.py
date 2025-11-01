@@ -1,4 +1,4 @@
-from crs.min_pro import sub , mul , sum_list , is_event , is_positive
+from crs.min_pro import sub , mul , sum_list , is_event , is_positive,max_of_two
 
 def test_sub():
     assert sub(8,3) == 5
