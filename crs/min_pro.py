@@ -36,4 +36,3 @@ def factorial(e):
         return 1
     else:
         return None
-
